@@ -3,6 +3,7 @@ body {
     font-family: 'Press Start 2P';
     width: 100%;
     height: 100%;
+    margin:0;
 }
 
 .name {
@@ -17,4 +18,52 @@ img {
     height: 128px;
     margin-left: -35px;
     margin-bottom: 20px;
+    position: relative;
+    align-items:center;
+    left:500px;
+    bottom:225px;
+
 }
+
+h1{
+    position: relative;
+    align-items:center;
+    left:350px;
+}
+
+h2{
+    position: relative;
+    top:200px;
+    bottom:70px;
+    right:300px;
+}
+
+
+
+h3{
+    position: relative;
+    top:250px;
+    bottom:60px;
+    right:590px;
+}
+
+h4{
+    position: relative;
+    top:300px;
+    right:925px;
+
+}
+
+
+.worg {
+    width:170px;
+    height:110px;
+    position: relative;
+    top:2px;
+    
+}
+
+
+
+
+
