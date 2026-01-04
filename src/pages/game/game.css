@@ -1,0 +1,47 @@
+.board {
+    width: 75vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 3px;
+    background: rgb(96, 251, 109);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(189, 243, 255);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background: skyblue;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.1),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.cell:hover {
+    background: rgb(0, 4, 255);
+    transform: scale(1.02);
+}
+
+.cell.revealed {
+    background: white;
+    border: 2px solid gold;
+}
+
+.number-1 { }
