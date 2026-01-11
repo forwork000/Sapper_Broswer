@@ -7,8 +7,9 @@ body {
 }
 
 .logo_log{
-    width: 30px;
-    height: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 .top_logo{
@@ -17,8 +18,8 @@ body {
     align-items: center;
 }
 .worg {
-    width:170px;
-    height:110px;
+    width:570px;
+    height:410px;
 
     
 }
@@ -41,3 +42,6 @@ body {
     font-size: 2em;
 }
 
+.name1 {
+    font-size: 55px;
+}
