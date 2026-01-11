@@ -8,9 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="name">
-        <h1>САПЁР</h1>
-        <img src="src\flag.png">
-    </div>
+    <header>
+        <div class="name">
+            <div class="top_logo">
+                <h1 class = name1>САПЁР</h1>
+                <img class="logo_log" src="src/flag_cropped.png">
+            </div>
+        </div>  
+    </header>
+    <main>
+        <div class="low_menu">
+            <div class="left_menu">
+                <h2 class ="name2 menu_nav">ИГРАТЬ</h2>
+                <h3 class="name3 menu_nav">НАСТРОЙКИ</h3>
+            </div>
+            <div class="right_menu">
+                <img class="worg" src="src/mine.png">
+            </div>
+        </div>
+    </main>
+        
+        
+
+    <script>
+        document.querySelector('.name2').addEventListener('click', function(){
+            window.location.href = 'src/pages/game/game.html'
+        })
+    </script>
 </body>
 </html>
