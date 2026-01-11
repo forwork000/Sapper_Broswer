@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  font: 1em 'Press Start 2P';
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7CFC00;
+}
+
+#game-info {
+  margin: 10px 0;
+}
+
+#board {
+    width: 345px;
+    height: 360px;
+  display: inline-grid;
+  grid-template-columns: repeat(10, 30px);
+  gap: 5px;
+  background-color: #bbb;
+  padding: 5px;
+  border: 2px solid #888;
+}
+
+#restart {
+    font: 1em 'Press Start 2P';
+    margin-top: 20px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #7bd5ff;
+  border: 1px solid #f40b0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cell:hover {
+    background-color: #2347f8;
+    transform: scale(1.2);
+}
+
+.cell.revealed {
+  background-color: #ccc;
+  cursor: default;
+  transform: none;
+}
+
+.cell.flagged {
+  background-image: url('flag.png');
+  background-size: cover;
+  transform: none;
+}
+
+.cell.mine {
+  background-image: url('mine.png');
+  background-size: cover;
+  transform: none;
+}
