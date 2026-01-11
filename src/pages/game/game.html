@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="game.css" />
 </head>
 <body>
+  <div class="back">
+  <p>НАЗАД</p>
+  </div>
   <h1>Сапёр</h1>
   <div id="game-info">
     
@@ -16,5 +19,12 @@
   <div id="board"></div>
 <button id="restart">Новая игра</button>
   <script src="game.js"></script>
+
+<script>
+  document.querySelector('.back').addEventListener('click', function(){
+    window.history.back()
+  })
+</script>
+
 </body>
 </html>
