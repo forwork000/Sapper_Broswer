@@ -16,22 +16,16 @@ body {
 img {
     width: 128px;
     height: 128px;
-    margin-left: -35px;
-    margin-bottom: 20px;
-    position: relative;
-    align-items:center;
-    left:500px;
-    bottom:225px;
+    
 
 }
-
-h1{
+.name1{
     position: relative;
     align-items:center;
     left:350px;
 }
 
-h2{
+.name2{
     position: relative;
     top:200px;
     bottom:70px;
@@ -45,12 +39,14 @@ h3{
     top:250px;
     bottom:60px;
     right:590px;
+    
 }
 
 h4{
     position: relative;
     top:300px;
     right:925px;
+    color:red;
 
 }
 
