@@ -6,60 +6,38 @@ body {
     margin:0;
 }
 
-.name {
+.logo_log{
+    width: 30px;
+    height: 30px;
+}
+
+.top_logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
 }
-
-img {
-    width: 128px;
-    height: 128px;
-    
-
-}
-.name1{
-    position: relative;
-    align-items:center;
-    left:350px;
-}
-
-.name2{
-    position: relative;
-    top:200px;
-    bottom:70px;
-    right:300px;
-}
-
-
-
-h3{
-    position: relative;
-    top:250px;
-    bottom:60px;
-    right:590px;
-    
-}
-
-h4{
-    position: relative;
-    top:300px;
-    right:925px;
-    color:red;
-
-}
-
-
 .worg {
     width:170px;
     height:110px;
-    position: relative;
-    top:2px;
+
     
 }
 
+.low_menu{
+    margin-top:20vh;
+    display: flex;
+    justify-content: space-between;
+}
 
+.left_menu{
+    margin-left: 5vw;
+}
 
+.right_menu{
+    margin-right: 15vw;
+}
 
+.menu_nav{
+    font-size: 2em;
+}
 
