@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height:700px;
+    transform: scale(2.5);
 }
 .worg {
     width:570px;
@@ -32,6 +34,7 @@ body {
 
 .left_menu{
     margin-left: 5vw;
+
 }
 
 .right_menu{
@@ -39,7 +42,7 @@ body {
 }
 
 .menu_nav{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .name1 {
